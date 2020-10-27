@@ -1,0 +1,72 @@
+PODS:
+  - Alamofire (5.2.2)
+  - Charts (3.5.0):
+    - Charts/Core (= 3.5.0)
+  - Charts/Core (3.5.0)
+  - DateToolsSwift (5.0.0)
+  - HMSegmentedControl (1.5.6)
+  - ImageViewer.swift (3.2.0)
+  - Localize-Swift (2.0.0)
+  - Locksmith (4.0.0)
+  - Mapbox-iOS-SDK (6.0.0):
+    - MapboxMobileEvents (= 0.10.2)
+  - MapboxMobileEvents (0.10.2)
+  - QRCode (2.0)
+  - Reorder (0.1.1)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - SVProgressHUD (2.2.5)
+  - SwiftCharts (0.6.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts
+  - DateToolsSwift
+  - HMSegmentedControl
+  - ImageViewer.swift (~> 3.0)
+  - Localize-Swift (~> 2.0)
+  - Locksmith
+  - Mapbox-iOS-SDK (~> 6.0.0)
+  - QRCode
+  - Reorder
+  - SDWebImage (~> 5.0)
+  - SVProgressHUD
+  - SwiftCharts
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - DateToolsSwift
+    - HMSegmentedControl
+    - ImageViewer.swift
+    - Localize-Swift
+    - Locksmith
+    - Mapbox-iOS-SDK
+    - MapboxMobileEvents
+    - QRCode
+    - Reorder
+    - SDWebImage
+    - SVProgressHUD
+    - SwiftCharts
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  Charts: 40a08591df1f8ad5c223ddedfb1a06da92f24f7c
+  DateToolsSwift: 4207ada6ad615d8dc076323d27037c94916dbfa6
+  HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
+  ImageViewer.swift: 0c117cc1696870da4f70e8c652e76f0df6c3fd7b
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  Locksmith: e9bebbaaa4cee3c511bc358a44f843c3fe00e21f
+  Mapbox-iOS-SDK: 48ff7550bd459b8494da8ef4d660a668e9187ef0
+  MapboxMobileEvents: 2bc0ca2eedb627b73cf403258dce2b2fa98074a6
+  QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
+  Reorder: 0115b9366b205b66085e4a53475c818d7e8089e7
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftCharts: 2e755ea292f0b87d3e4b2c1eb5afc080a20cdc15
+
+PODFILE CHECKSUM: c21eccd8b9e466f66bc225602f8ce6b69c4108bb
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,384 @@
+
+/* Class = "UILabel"; text = "Cardio"; ObjectID = "07L-sS-YHK"; */
+"07L-sS-YHK.text" = "Cardio";
+
+/* Class = "UILabel"; text = "144"; ObjectID = "0EA-Cb-6Wp"; */
+"0EA-Cb-6Wp.text" = "144";
+
+/* Class = "UILabel"; text = "Add training"; ObjectID = "0yQ-Wr-20q"; */
+"0yQ-Wr-20q.text" = "Add training";
+
+/* Class = "UILabel"; text = "Create Training"; ObjectID = "14l-vu-sRM"; */
+"14l-vu-sRM.text" = "Create Training";
+
+/* Class = "UILabel"; text = "cal"; ObjectID = "1gq-dx-okn"; */
+"1gq-dx-okn.text" = "cal";
+
+/* Class = "UILabel"; text = "Goal"; ObjectID = "1gs-WF-okq"; */
+"1gs-WF-okq.text" = "Goal";
+
+/* Class = "UILabel"; text = "km"; ObjectID = "1hX-Mm-q08"; */
+"1hX-Mm-q08.text" = "km";
+
+/* Class = "UILabel"; text = "Davydov"; ObjectID = "2Sr-9k-6LA"; */
+"2Sr-9k-6LA.text" = "Davydov";
+
+/* Class = "UIButton"; normalTitle = "Select plan"; ObjectID = "3rV-xo-wMW"; */
+"3rV-xo-wMW.normalTitle" = "Select plan";
+
+/* Class = "UIButton"; normalTitle = "Add exercise"; ObjectID = "4ID-xP-19w"; */
+"4ID-xP-19w.normalTitle" = "Add exercise";
+
+/* Class = "UIButton"; normalTitle = "Apply"; ObjectID = "58j-0G-Zc0"; */
+"58j-0G-Zc0.normalTitle" = "Apply";
+
+/* Class = "UIButton"; normalTitle = "Apply"; ObjectID = "5dU-ua-GfA"; */
+"5dU-ua-GfA.normalTitle" = "Apply";
+
+/* Class = "UITextField"; text = "87"; ObjectID = "6wA-Zd-o2Y"; */
+"6wA-Zd-o2Y.text" = "87";
+
+/* Class = "UILabel"; text = "pace"; ObjectID = "7By-Dg-Ngq"; */
+"7By-Dg-Ngq.text" = "pace";
+
+/* Class = "UILabel"; text = " kg"; ObjectID = "7Po-iD-Ly6"; */
+"7Po-iD-Ly6.text" = " kg";
+
+/* Class = "UITextField"; placeholder = "Distance"; ObjectID = "7Xn-Yw-5Sm"; */
+"7Xn-Yw-5Sm.placeholder" = "Distance";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "9Gg-Nq-7dZ"; */
+"9Gg-Nq-7dZ.placeholder" = "Search";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "9UY-tg-BOg"; */
+"9UY-tg-BOg.placeholder" = "Search";
+
+/* Class = "UITextField"; placeholder = "Name*"; ObjectID = "AVh-fy-YAI"; */
+"AVh-fy-YAI.placeholder" = "Name*";
+
+/* Class = "UILabel"; text = "Training is added to your calendar"; ObjectID = "AeK-L8-IhE"; */
+"AeK-L8-IhE.text" = "Training is added to your calendar";
+
+/* Class = "UITextField"; placeholder = "About"; ObjectID = "BmV-c1-h4i"; */
+"BmV-c1-h4i.placeholder" = "About";
+
+/* Class = "UILabel"; text = "Gym"; ObjectID = "BwF-3a-ZUP"; */
+"BwF-3a-ZUP.text" = "Gym";
+
+/* Class = "UILabel"; text = "Plans"; ObjectID = "CeH-co-afe"; */
+"CeH-co-afe.text" = "Plans";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "DAe-Z4-fda"; */
+"DAe-Z4-fda.text" = "00:00";
+
+/* Class = "UILabel"; text = "Plan #1                   Work hard"; ObjectID = "DB1-if-kRx"; */
+"DB1-if-kRx.text" = "Plan #1                   Work hard";
+
+/* Class = "UILabel"; text = "Duration"; ObjectID = "EOi-nz-oYe"; */
+"EOi-nz-oYe.text" = "Duration";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "ER9-DX-mGs"; */
+"ER9-DX-mGs.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "+ Add to Training"; ObjectID = "EeT-bV-qXO"; */
+"EeT-bV-qXO.normalTitle" = "+ Add to Training";
+
+/* Class = "UILabel"; text = "History"; ObjectID = "Ez2-Cc-MH1"; */
+"Ez2-Cc-MH1.text" = "History";
+
+/* Class = "UILabel"; text = "Set starting date"; ObjectID = "F4q-fr-JxP"; */
+"F4q-fr-JxP.text" = "Set starting date";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "G2k-md-IEU"; */
+"G2k-md-IEU.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "My Details"; ObjectID = "Gdc-4p-RbL"; */
+"Gdc-4p-RbL.text" = "My Details";
+
+/* Class = "UIButton"; normalTitle = "Add student"; ObjectID = "Gep-0g-xQB"; */
+"Gep-0g-xQB.normalTitle" = "Add student";
+
+/* Class = "UILabel"; text = "Zakhar"; ObjectID = "GwV-qs-JRV"; */
+"GwV-qs-JRV.text" = "Zakhar";
+
+/* Class = "UILabel"; text = " cm"; ObjectID = "HPA-cE-ylf"; */
+"HPA-cE-ylf.text" = " cm";
+
+/* Class = "UITextField"; placeholder = "Duration"; ObjectID = "HRQ-9i-nkV"; */
+"HRQ-9i-nkV.placeholder" = "Duration";
+
+/* Class = "UILabel"; text = "ACCESS TO"; ObjectID = "IIe-h8-G5D"; */
+"IIe-h8-G5D.text" = "ACCESS TO";
+
+/* Class = "UILabel"; text = "Create Plan"; ObjectID = "IVK-eW-NBL"; */
+"IVK-eW-NBL.text" = "Create Plan";
+
+/* Class = "UITextField"; placeholder = "Trainer"; ObjectID = "IhZ-hq-fe5"; */
+"IhZ-hq-fe5.placeholder" = "Trainer";
+
+/* Class = "UILabel"; text = "5'46''"; ObjectID = "Iv3-lS-son"; */
+"Iv3-lS-son.text" = "5'46''";
+
+/* Class = "UILabel"; text = "Training #1"; ObjectID = "KL5-Xo-O9h"; */
+"KL5-Xo-O9h.text" = "Training #1";
+
+/* Class = "UITextField"; placeholder = "Starting time"; ObjectID = "LWl-yI-4YY"; */
+"LWl-yI-4YY.placeholder" = "Starting time";
+
+/* Class = "UILabel"; text = "kcal were burnt"; ObjectID = "Lhf-aH-NCf"; */
+"Lhf-aH-NCf.text" = "kcal were burnt";
+
+/* Class = "UIButton"; normalTitle = "Exercise Library"; ObjectID = "M3q-8x-PYq"; */
+"M3q-8x-PYq.normalTitle" = "Exercise Library";
+
+/* Class = "UILabel"; text = "Goal"; ObjectID = "MJz-h0-5eF"; */
+"MJz-h0-5eF.text" = "Goal";
+
+/* Class = "UILabel"; text = "Add running"; ObjectID = "MrX-ha-y2s"; */
+"MrX-ha-y2s.text" = "Add running";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "NXJ-86-6gp"; */
+"NXJ-86-6gp.text" = "3";
+
+/* Class = "UILabel"; text = "John Cena"; ObjectID = "Ndf-mO-V47"; */
+"Ndf-mO-V47.text" = "John Cena";
+
+/* Class = "UILabel"; text = "Failed"; ObjectID = "Ngb-E3-DBG"; */
+"Ngb-E3-DBG.text" = "Failed";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "Nro-K1-Xty"; */
+"Nro-K1-Xty.normalTitle" = "Start";
+
+/* Class = "UILabel"; text = "Apple Health"; ObjectID = "OjX-3g-p2a"; */
+"OjX-3g-p2a.text" = "Apple Health";
+
+/* Class = "UILabel"; text = "Running"; ObjectID = "Ou9-H8-jOZ"; */
+"Ou9-H8-jOZ.text" = "Running";
+
+/* Class = "UILabel"; text = "11:25"; ObjectID = "Q81-Qd-Fqa"; */
+"Q81-Qd-Fqa.text" = "11:25";
+
+/* Class = "UILabel"; text = "heart"; ObjectID = "QhC-xw-4A0"; */
+"QhC-xw-4A0.text" = "heart";
+
+/* Class = "UILabel"; text = "Trainer"; ObjectID = "Qth-Qi-Ta1"; */
+"Qth-Qi-Ta1.text" = "Trainer";
+
+/* Class = "UILabel"; text = "Activity"; ObjectID = "RQT-KD-WMg"; */
+"RQT-KD-WMg.text" = "Activity";
+
+/* Class = "UILabel"; text = "Ask your coach to scan this QR code and he will be attached to your profile"; ObjectID = "S5b-8z-5Do"; */
+"S5b-8z-5Do.text" = "Ask your coach to scan this QR code and he will be attached to your profile";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "SDM-r0-bCG"; */
+"SDM-r0-bCG.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "Ivan Fotin"; ObjectID = "So2-iF-3Fb"; */
+"So2-iF-3Fb.text" = "Ivan Fotin";
+
+/* Class = "UITextField"; text = "188"; ObjectID = "TH4-yV-GQo"; */
+"TH4-yV-GQo.text" = "188";
+
+/* Class = "UITextField"; placeholder = "About"; ObjectID = "TIB-ig-jsD"; */
+"TIB-ig-jsD.placeholder" = "About";
+
+/* Class = "UILabel"; text = "2 weeks"; ObjectID = "TkZ-Pm-vOq"; */
+"TkZ-Pm-vOq.text" = "2 weeks";
+
+/* Class = "UILabel"; text = "1,24"; ObjectID = "TrF-1Z-C24"; */
+"TrF-1Z-C24.text" = "1,24";
+
+/* Class = "UILabel"; text = "Will be applied from your next training"; ObjectID = "TwB-wo-buw"; */
+"TwB-wo-buw.text" = "Will be applied from your next training";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "UAh-LX-Z0R"; */
+"UAh-LX-Z0R.text" = ":";
+
+/* Class = "UILabel"; text = "00"; ObjectID = "ULR-39-6Wd"; */
+"ULR-39-6Wd.text" = "00";
+
+/* Class = "UIButton"; normalTitle = "Add selected equipment"; ObjectID = "VNW-RT-uKl"; */
+"VNW-RT-uKl.normalTitle" = "Add selected equipment";
+
+/* Class = "UILabel"; text = "adjust"; ObjectID = "WeQ-hV-zMJ"; */
+"WeQ-hV-zMJ.text" = "adjust";
+
+/* Class = "UILabel"; text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."; ObjectID = "XVS-b7-Wo3"; */
+"XVS-b7-Wo3.text" = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
+/* Class = "UILabel"; text = "Activity"; ObjectID = "XZw-Z7-Rma"; */
+"XZw-Z7-Rma.text" = "Activity";
+
+/* Class = "UITextField"; placeholder = "Equipment"; ObjectID = "XbF-G4-4te"; */
+"XbF-G4-4te.placeholder" = "Equipment";
+
+/* Class = "UIButton"; normalTitle = "+ Add to Plan"; ObjectID = "YGU-9d-a9V"; */
+"YGU-9d-a9V.normalTitle" = "+ Add to Plan";
+
+/* Class = "UILabel"; text = "Add to"; ObjectID = "ZNr-f5-9yg"; */
+"ZNr-f5-9yg.text" = "Add to";
+
+/* Class = "UITextField"; placeholder = "Tags"; ObjectID = "Zhw-bC-QEb"; */
+"Zhw-bC-QEb.placeholder" = "Tags";
+
+/* Class = "UILabel"; text = "Difficulty"; ObjectID = "ZqE-KE-8oQ"; */
+"ZqE-KE-8oQ.text" = "Difficulty";
+
+/* Class = "UIButton"; normalTitle = "Create training"; ObjectID = "aBo-NW-Xwb"; */
+"aBo-NW-Xwb.normalTitle" = "Create training";
+
+/* Class = "UIButton"; normalTitle = "Plans"; ObjectID = "aFr-kI-EqN"; */
+"aFr-kI-EqN.normalTitle" = "Plans";
+
+/* Class = "UIButton"; normalTitle = "Male"; ObjectID = "aOh-ID-umH"; */
+"aOh-ID-umH.normalTitle" = "Male";
+
+/* Class = "UILabel"; text = "hours : minutes"; ObjectID = "aSS-7M-aIJ"; */
+"aSS-7M-aIJ.text" = "hours : minutes";
+
+/* Class = "UIButton"; normalTitle = "Log out"; ObjectID = "apN-Nh-vmI"; */
+"apN-Nh-vmI.normalTitle" = "Log out";
+
+/* Class = "UITextField"; placeholder = "Duration"; ObjectID = "aqD-Ht-8az"; */
+"aqD-Ht-8az.placeholder" = "Duration";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "axE-so-1Ed"; */
+"axE-so-1Ed.text" = "1";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "b3Z-GQ-l6A"; */
+"b3Z-GQ-l6A.placeholder" = "Name";
+
+/* Class = "UIButton"; normalTitle = "Set"; ObjectID = "b6b-Q9-jOr"; */
+"b6b-Q9-jOr.normalTitle" = "Set";
+
+/* Class = "UILabel"; text = "Your QR code"; ObjectID = "bQA-ro-Hcp"; */
+"bQA-ro-Hcp.text" = "Your QR code";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "bdF-AK-lzi"; */
+"bdF-AK-lzi.normalTitle" = "Add";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "bjh-d1-pqL"; */
+"bjh-d1-pqL.text" = "Gender";
+
+/* Class = "UIButton"; normalTitle = "+   Add Goal"; ObjectID = "bsb-Ey-ovU"; */
+"bsb-Ey-ovU.normalTitle" = "+   Add Goal";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "cBj-nJ-skU"; */
+"cBj-nJ-skU.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "60"; ObjectID = "cVf-1i-dLa"; */
+"cVf-1i-dLa.text" = "60";
+
+/* Class = "UITextField"; placeholder = "Calories per set*"; ObjectID = "chR-4r-fsA"; */
+"chR-4r-fsA.placeholder" = "Calories per set*";
+
+/* Class = "UILabel"; text = "Height"; ObjectID = "cpV-c7-TbK"; */
+"cpV-c7-TbK.text" = "Height";
+
+/* Class = "UILabel"; text = "Endurance"; ObjectID = "cxm-Xo-mfx"; */
+"cxm-Xo-mfx.text" = "Endurance";
+
+/* Class = "UILabel"; text = "New training was added on 29th of January"; ObjectID = "cyc-bF-04S"; */
+"cyc-bF-04S.text" = "New training was added on 29th of January";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "dym-on-GGI"; */
+"dym-on-GGI.text" = "2";
+
+/* Class = "UIButton"; normalTitle = "Share..."; ObjectID = "dz1-qH-3IR"; */
+"dz1-qH-3IR.normalTitle" = "Share...";
+
+/* Class = "UILabel"; text = "Weight"; ObjectID = "ejv-r5-axN"; */
+"ejv-r5-axN.text" = "Weight";
+
+/* Class = "UILabel"; text = "Equipment"; ObjectID = "f4g-GF-fcl"; */
+"f4g-GF-fcl.text" = "Equipment";
+
+/* Class = "UIButton"; normalTitle = "Create plan"; ObjectID = "fAa-cr-Di6"; */
+"fAa-cr-Di6.normalTitle" = "Create plan";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "fsk-RE-uFL"; */
+"fsk-RE-uFL.normalTitle" = "Add";
+
+/* Class = "UILabel"; text = "has been added as your coach"; ObjectID = "gV2-h2-uYy"; */
+"gV2-h2-uYy.text" = "has been added as your coach";
+
+/* Class = "UIButton"; normalTitle = "Calendar"; ObjectID = "h8O-ts-Yov"; */
+"h8O-ts-Yov.normalTitle" = "Calendar";
+
+/* Class = "UILabel"; text = "--:--"; ObjectID = "h8r-6v-uV1"; */
+"h8r-6v-uV1.text" = "--:--";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "hCa-Jn-hiD"; */
+"hCa-Jn-hiD.text" = "About";
+
+/* Class = "UIButton"; normalTitle = "Add Plan"; ObjectID = "hZG-uT-HVD"; */
+"hZG-uT-HVD.normalTitle" = "Add Plan";
+
+/* Class = "UILabel"; text = "Create exercise"; ObjectID = "ix5-UE-XpR"; */
+"ix5-UE-XpR.text" = "Create exercise";
+
+/* Class = "UIButton"; normalTitle = "Manage"; ObjectID = "k2j-1s-GZG"; */
+"k2j-1s-GZG.normalTitle" = "Manage";
+
+/* Class = "UILabel"; text = "Training"; ObjectID = "l1P-Xk-FgG"; */
+"l1P-Xk-FgG.text" = "Training";
+
+/* Class = "UITextField"; placeholder = "Tags"; ObjectID = "l4K-RS-w4r"; */
+"l4K-RS-w4r.placeholder" = "Tags";
+
+/* Class = "UILabel"; text = "time"; ObjectID = "lGU-U8-XLb"; */
+"lGU-U8-XLb.text" = "time";
+
+/* Class = "UITextField"; placeholder = "Pace"; ObjectID = "lWO-Zs-G3V"; */
+"lWO-Zs-G3V.placeholder" = "Pace";
+
+/* Class = "UIButton"; normalTitle = "Create exercise"; ObjectID = "m0Q-gw-UTj"; */
+"m0Q-gw-UTj.normalTitle" = "Create exercise";
+
+/* Class = "UILabel"; text = "new"; ObjectID = "mrf-Lk-DeD"; */
+"mrf-Lk-DeD.text" = "new";
+
+/* Class = "UILabel"; text = "Duration"; ObjectID = "n45-Ey-oxZ"; */
+"n45-Ey-oxZ.text" = "Duration";
+
+/* Class = "UILabel"; text = "29/01"; ObjectID = "oUP-d2-Ifj"; */
+"oUP-d2-Ifj.text" = "29/01";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "puI-Vt-KkN"; */
+"puI-Vt-KkN.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "Try again in few moments"; ObjectID = "qtJ-rq-MVy"; */
+"qtJ-rq-MVy.text" = "Try again in few moments";
+
+/* Class = "UIButton"; normalTitle = "Do it once"; ObjectID = "rf5-mP-9fa"; */
+"rf5-mP-9fa.normalTitle" = "Do it once";
+
+/* Class = "UIButton"; normalTitle = "change photo"; ObjectID = "rlO-tT-A5i"; */
+"rlO-tT-A5i.normalTitle" = "change photo";
+
+/* Class = "UILabel"; text = "Hold weight"; ObjectID = "s6G-xj-6dr"; */
+"s6G-xj-6dr.text" = "Hold weight";
+
+/* Class = "UILabel"; text = "00"; ObjectID = "sQT-rn-QSm"; */
+"sQT-rn-QSm.text" = "00";
+
+/* Class = "UILabel"; text = "min : sec"; ObjectID = "sYh-YQ-nFJ"; */
+"sYh-YQ-nFJ.text" = "min : sec";
+
+/* Class = "UITextField"; placeholder = "Tags"; ObjectID = "tYc-AN-bBI"; */
+"tYc-AN-bBI.placeholder" = "Tags";
+
+/* Class = "UIButton"; normalTitle = "Gym"; ObjectID = "u8k-kP-ibm"; */
+"u8k-kP-ibm.normalTitle" = "Gym";
+
+/* Class = "UIButton"; normalTitle = "Add photo/video instruction"; ObjectID = "unN-NB-YZB"; */
+"unN-NB-YZB.normalTitle" = "Add photo/video instruction";
+
+/* Class = "UILabel"; text = "Hard"; ObjectID = "vei-Bm-40S"; */
+"vei-Bm-40S.text" = "Hard";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "w6s-xI-LEb"; */
+"w6s-xI-LEb.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Filters"; ObjectID = "zvK-NF-yWe"; */
+"zvK-NF-yWe.text" = "Filters";

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Bold.otf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="CalculateView" id="iN0-l3-epB" customClass="CalculateView" customModule="Wellness_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="248"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1,24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="60" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yVP-qu-fBU">
+                    <rect key="frame" x="10" y="0.0" width="390" height="108"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="108" id="Dty-pi-MJo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="90"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="km" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="seW-d0-xJn">
+                    <rect key="frame" x="10" y="128" width="390" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="TaT-mo-PoO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
+                    <color key="textColor" white="0.0" alpha="0.34999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Vex-eB-2fT">
+                    <rect key="frame" x="-2" y="243" width="414" height="6"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="5" id="rEl-kF-gxf"/>
+                    </constraints>
+                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                    <connections>
+                        <action selector="sliderAction:" destination="iN0-l3-epB" eventType="valueChanged" id="DAC-2q-OTr"/>
+                    </connections>
+                </slider>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="seW-d0-xJn" firstAttribute="top" secondItem="yVP-qu-fBU" secondAttribute="bottom" constant="20" id="9gc-TD-W6K"/>
+                <constraint firstItem="seW-d0-xJn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="CkW-Lb-shb"/>
+                <constraint firstAttribute="bottom" secondItem="Vex-eB-2fT" secondAttribute="bottom" id="Nxd-C8-Nut"/>
+                <constraint firstAttribute="trailing" secondItem="Vex-eB-2fT" secondAttribute="trailing" id="d4g-0j-O7A"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="seW-d0-xJn" secondAttribute="trailing" constant="10" id="iqq-Bl-2Cg"/>
+                <constraint firstItem="yVP-qu-fBU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="lbT-tL-JFU"/>
+                <constraint firstItem="Vex-eB-2fT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="o2b-yn-gPV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yVP-qu-fBU" secondAttribute="trailing" constant="10" id="pzs-bo-YXj"/>
+                <constraint firstItem="yVP-qu-fBU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qpO-2u-AGQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="otstupConstraint" destination="9gc-TD-W6K" id="LnO-eE-Btd"/>
+                <outlet property="slider" destination="Vex-eB-2fT" id="K2J-Y0-gJY"/>
+                <outlet property="titleLabel" destination="seW-d0-xJn" id="dq0-ZV-y26"/>
+                <outlet property="titleLabelHeightConstraint" destination="TaT-mo-PoO" id="j7w-ss-Xw2"/>
+                <outlet property="valueLabel" destination="yVP-qu-fBU" id="skR-lD-J0q"/>
+                <outlet property="valueLabelHeightConstraint" destination="Dty-pi-MJo" id="nwA-oF-OXF"/>
+            </connections>
+            <point key="canvasLocation" x="134.78260869565219" y="-119.86607142857142"/>
+        </view>
+    </objects>
+</document>

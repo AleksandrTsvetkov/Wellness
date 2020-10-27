@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Semibold.otf">
+            <string>SFProDisplay-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddActivityButtonView" customModule="Wellness_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="addActivityButton" destination="c18-uK-gUD" id="Jh8-mg-afD"/>
+                <outlet property="contentView" destination="Eiu-gV-x2k" id="IaR-Q2-VGP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Eiu-gV-x2k">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="38"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4M0-QZ-TUU">
+                    <rect key="frame" x="0.0" y="0.0" width="343" height="38"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c18-uK-gUD">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="38"/>
+                            <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="16"/>
+                            <inset key="titleEdgeInsets" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Add Exercise" image="button_add_activity">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="addExerciseButtonAction:" destination="-1" eventType="touchUpInside" id="ggB-ib-GyN"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="c18-uK-gUD" secondAttribute="bottom" id="4iG-G1-V1D"/>
+                        <constraint firstAttribute="trailing" secondItem="c18-uK-gUD" secondAttribute="trailing" id="OkE-ed-G7z"/>
+                        <constraint firstItem="c18-uK-gUD" firstAttribute="top" secondItem="4M0-QZ-TUU" secondAttribute="top" id="QLm-CO-D47"/>
+                        <constraint firstItem="c18-uK-gUD" firstAttribute="leading" secondItem="4M0-QZ-TUU" secondAttribute="leading" id="R5S-g7-fmg"/>
+                        <constraint firstAttribute="height" constant="38" id="qFe-xI-YRC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4M0-QZ-TUU" secondAttribute="trailing" id="5Ih-5m-sbR"/>
+                <constraint firstItem="4M0-QZ-TUU" firstAttribute="top" secondItem="Eiu-gV-x2k" secondAttribute="top" id="Loq-Rq-8s9"/>
+                <constraint firstAttribute="bottom" secondItem="4M0-QZ-TUU" secondAttribute="bottom" id="rNL-Xi-3hH"/>
+                <constraint firstItem="4M0-QZ-TUU" firstAttribute="leading" secondItem="1Ij-XC-AFI" secondAttribute="leading" id="uTh-na-D6A"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="1Ij-XC-AFI"/>
+            <point key="canvasLocation" x="118" y="222"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button_add_activity" width="38" height="38"/>
+    </resources>
+</document>

@@ -1,0 +1,19 @@
+/* 
+  InfoPlist.strings
+  Wellness-iOS
+
+  Created by Andrey Atroshchenko on 08.08.2020.
+  Copyright © 2020 Wellness. All rights reserved.
+*/
+"NSCalendarsUsageDescription" = "Wellness хочет получить доступ к вашему календарю";
+"NSCameraUsageDescription" = "Wellness хочет получить доступ к вашей камере";
+"NSHealthClinicalHealthRecordsShareUsageDescription" = "Wellness хочет получить доступ к вашей информации о здоровье";
+"NSHealthShareUsageDescription" = "Wellness хочет получить доступ к вашей информации о здоровье";
+"NSHealthUpdateUsageDescription" = "Wellness хочет получить доступ к вашей информации о здоровье";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Wellness хочет получить доступ к вашей геолокации";
+"NSLocationAlwaysUsageDescription" = "Wellness хочет получить доступ к вашей геолокации";
+"NSLocationUsageDescription" = "Wellness хочет получить доступ к вашей геолокации";
+"NSLocationWhenInUseUsageDescription" = "Wellness хочет получить доступ к вашей геолокации";
+"NSMicrophoneUsageDescription" = "Wellness хочет получить доступ к вашему микрофону";
+"NSMotionUsageDescription" = "Wellness хочет получить доступ к вашей геолокации";
+"NSPhotoLibraryUsageDescription" = "Wellness хочет получить доступ к вашей фотопленке";

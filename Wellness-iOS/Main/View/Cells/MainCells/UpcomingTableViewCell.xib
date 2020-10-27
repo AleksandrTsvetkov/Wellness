@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Medium.otf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="124" id="KGk-i7-Jjw" customClass="UpcomingTableViewCell" customModule="Wellness_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="547" height="124"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="547" height="124"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f6i-NG-Kzo">
+                        <rect key="frame" x="16" y="4" width="515" height="54"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1au-fN-UFY">
+                                <rect key="frame" x="10" y="11" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="kKZ-qa-rVh"/>
+                                    <constraint firstAttribute="height" constant="32" id="pdh-rl-PYW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oqe-1T-LW1">
+                                <rect key="frame" x="58" y="17.666666666666664" width="38" height="18.666666666666664"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Завтра в 18:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svA-H3-hrH">
+                                <rect key="frame" x="375" y="17.666666666666664" width="104" height="18.666666666666664"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="16"/>
+                                <color key="textColor" red="0.53344583509999999" green="0.53304809330000003" blue="0.54902243610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_upcoming_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="3Wh-xO-4a1">
+                                <rect key="frame" x="495" y="16" width="10" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="ETY-gQ-p6P"/>
+                                    <constraint firstAttribute="height" constant="22" id="jqo-K1-mxu"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97592383623123169" green="0.97666221857070923" blue="0.97603815793991089" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Oqe-1T-LW1" firstAttribute="leading" secondItem="f6i-NG-Kzo" secondAttribute="leading" constant="58" id="4Hc-b0-Aao"/>
+                            <constraint firstItem="1au-fN-UFY" firstAttribute="leading" secondItem="f6i-NG-Kzo" secondAttribute="leading" constant="10" id="CLj-qo-dXh"/>
+                            <constraint firstAttribute="trailing" secondItem="3Wh-xO-4a1" secondAttribute="trailing" constant="10" id="JNF-pC-yac"/>
+                            <constraint firstAttribute="height" constant="54" id="UDF-tK-Zq1"/>
+                            <constraint firstItem="3Wh-xO-4a1" firstAttribute="centerY" secondItem="f6i-NG-Kzo" secondAttribute="centerY" id="Xnj-aA-90t"/>
+                            <constraint firstItem="svA-H3-hrH" firstAttribute="centerY" secondItem="f6i-NG-Kzo" secondAttribute="centerY" id="ef0-EX-dpc"/>
+                            <constraint firstItem="3Wh-xO-4a1" firstAttribute="leading" secondItem="svA-H3-hrH" secondAttribute="trailing" constant="16" id="xzD-WV-Srw"/>
+                            <constraint firstItem="Oqe-1T-LW1" firstAttribute="centerY" secondItem="f6i-NG-Kzo" secondAttribute="centerY" id="y4L-D1-gEB"/>
+                            <constraint firstItem="1au-fN-UFY" firstAttribute="centerY" secondItem="f6i-NG-Kzo" secondAttribute="centerY" id="zyz-ps-em3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="f6i-NG-Kzo" secondAttribute="bottom" constant="4" id="5bs-Xa-H1R"/>
+                    <constraint firstItem="f6i-NG-Kzo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="5x2-OS-xle"/>
+                    <constraint firstAttribute="trailing" secondItem="f6i-NG-Kzo" secondAttribute="trailing" constant="16" id="Ayg-H3-trA"/>
+                    <constraint firstItem="f6i-NG-Kzo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="HT7-bR-smL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="planTimeLabel" destination="svA-H3-hrH" id="kh9-cR-iVE"/>
+                <outlet property="planTitleLabel" destination="Oqe-1T-LW1" id="xwL-o8-lNm"/>
+                <outlet property="titleConts" destination="4Hc-b0-Aao" id="U59-Ma-XlC"/>
+                <outlet property="trainerAvatarImageView" destination="1au-fN-UFY" id="AZN-tB-5LZ"/>
+                <outlet property="upcomingView" destination="f6i-NG-Kzo" id="qkt-xd-AZg"/>
+            </connections>
+            <point key="canvasLocation" x="274.39999999999998" y="143.3497536945813"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_upcoming_arrow" width="133" height="200"/>
+    </resources>
+</document>

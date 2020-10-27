@@ -1,0 +1,24 @@
+# Xcode
+.DS_Store
+#build file
+build/
+
+profile
+*.moved-aside
+xcuserdata/*
+DerivedData
+.idea/
+
+*.xccheckout
+*.xcuserstate
+
+Thumbs.db
+*.ipa
+*.zip
+
+*.cer
+*.mobileprovision
+
+Wellness-iOS.xcworkspace/xcuserdata/*
+Wellness-iOS.xcodeproj/xcuserdata/*
+

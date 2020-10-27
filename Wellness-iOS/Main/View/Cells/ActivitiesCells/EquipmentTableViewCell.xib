@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Semibold.otf">
+            <string>SFProDisplay-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="92" id="KGk-i7-Jjw" customClass="EquipmentTableViewCell" customModule="Wellness_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLE-iP-uyl">
+                        <rect key="frame" x="20" y="8" width="320" height="70"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_coach" translatesAutoresizingMaskIntoConstraints="NO" id="2XU-8o-Grf">
+                                <rect key="frame" x="260" y="15" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="f6c-SW-ioR"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vC1-eT-67J">
+                                <rect key="frame" x="20" y="24.5" width="220" height="21.5"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99623578786849976" green="0.94262868165969849" blue="0.93850070238113403" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="23d-O4-zpb"/>
+                            <constraint firstItem="vC1-eT-67J" firstAttribute="leading" secondItem="bLE-iP-uyl" secondAttribute="leading" constant="20" id="NSX-KN-ixT"/>
+                            <constraint firstItem="2XU-8o-Grf" firstAttribute="leading" secondItem="vC1-eT-67J" secondAttribute="trailing" constant="20" id="c6r-WP-NuX"/>
+                            <constraint firstAttribute="trailing" secondItem="2XU-8o-Grf" secondAttribute="trailing" constant="20" id="dsX-Zb-PdZ"/>
+                            <constraint firstItem="2XU-8o-Grf" firstAttribute="centerY" secondItem="vC1-eT-67J" secondAttribute="centerY" id="jdT-R9-TFv"/>
+                            <constraint firstItem="2XU-8o-Grf" firstAttribute="centerY" secondItem="bLE-iP-uyl" secondAttribute="centerY" id="oBD-Re-2Cu"/>
+                            <constraint firstItem="2XU-8o-Grf" firstAttribute="top" secondItem="bLE-iP-uyl" secondAttribute="top" constant="15" id="wku-dC-FmP"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bLE-iP-uyl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="3KW-OQ-XG3"/>
+                    <constraint firstItem="bLE-iP-uyl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="iD6-wc-VkF"/>
+                    <constraint firstAttribute="trailing" secondItem="bLE-iP-uyl" secondAttribute="trailing" constant="20" id="oWC-j1-Rgn"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="bLE-iP-uyl" secondAttribute="bottom" constant="8" id="zMZ-t1-wcO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="baseView" destination="bLE-iP-uyl" id="NXk-gv-uG6"/>
+                <outlet property="equipmentImageView" destination="2XU-8o-Grf" id="kU0-EJ-TZM"/>
+                <outlet property="nameLabel" destination="vC1-eT-67J" id="M1O-Jm-aFj"/>
+            </connections>
+            <point key="canvasLocation" x="53.623188405797109" y="41.852678571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="image_coach" width="40" height="40"/>
+    </resources>
+</document>

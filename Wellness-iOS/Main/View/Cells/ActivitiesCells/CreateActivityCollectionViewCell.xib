@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Medium.otf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+        <array key="SF-Pro-Display-Semibold.otf">
+            <string>SFProDisplay-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CreateActivityCollectionViewCell" customModule="Wellness_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="220" height="379"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="220" height="379"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ofI-Rl-lyY">
+                        <rect key="frame" x="0.0" y="0.0" width="220" height="379"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Exercise" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yW2-rC-fG2">
+                                <rect key="frame" x="20" y="20" width="180" height="28.666666666666671"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="24"/>
+                                <color key="textColor" red="0.47951453924179077" green="0.47989743947982788" blue="0.47957384586334229" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tt-3M-trl">
+                                <rect key="frame" x="131.66666666666666" y="339" width="68.333333333333343" height="20"/>
+                                <color key="backgroundColor" white="1" alpha="0.25" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="12"/>
+                                <state key="normal" title="scan qr">
+                                    <color key="titleColor" white="1" alpha="0.90020333904109584" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="scanQrButtonAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="5sy-nH-weS"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SZd-jY-LJL">
+                                <rect key="frame" x="20" y="284" width="75" height="75"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UM4-sH-TeW">
+                                        <rect key="frame" x="12.666666666666664" y="12.666666666666686" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="3Kh-R0-at0"/>
+                                            <constraint firstAttribute="width" constant="50" id="CN5-py-LLr"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="UM4-sH-TeW" firstAttribute="centerY" secondItem="SZd-jY-LJL" secondAttribute="centerY" id="dfk-2N-UDO"/>
+                                    <constraint firstItem="UM4-sH-TeW" firstAttribute="centerX" secondItem="SZd-jY-LJL" secondAttribute="centerX" id="h7Y-IP-t7l"/>
+                                    <constraint firstAttribute="width" constant="75" id="ic6-d4-443"/>
+                                    <constraint firstAttribute="height" constant="75" id="xFx-Bk-c4b"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96572273969650269" green="0.96645385026931763" blue="0.96583598852157593" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2tt-3M-trl" firstAttribute="width" secondItem="ofI-Rl-lyY" secondAttribute="width" multiplier="62/200" id="54l-5I-Vso"/>
+                            <constraint firstItem="yW2-rC-fG2" firstAttribute="top" secondItem="ofI-Rl-lyY" secondAttribute="top" constant="20" id="Ezf-ki-Jnp"/>
+                            <constraint firstItem="2tt-3M-trl" firstAttribute="height" secondItem="ofI-Rl-lyY" secondAttribute="height" multiplier="20/379" id="G8W-nH-wPf"/>
+                            <constraint firstItem="SZd-jY-LJL" firstAttribute="leading" secondItem="ofI-Rl-lyY" secondAttribute="leading" constant="20" id="HqY-Nb-R9R"/>
+                            <constraint firstItem="yW2-rC-fG2" firstAttribute="leading" secondItem="ofI-Rl-lyY" secondAttribute="leading" constant="20" id="RwI-p1-QaI"/>
+                            <constraint firstAttribute="trailing" secondItem="2tt-3M-trl" secondAttribute="trailing" constant="20" id="SxE-2F-0W9"/>
+                            <constraint firstAttribute="bottom" secondItem="SZd-jY-LJL" secondAttribute="bottom" constant="20" id="Szr-lf-UGB"/>
+                            <constraint firstAttribute="bottom" secondItem="2tt-3M-trl" secondAttribute="bottom" constant="20" id="YfR-Z0-PhC"/>
+                            <constraint firstAttribute="trailing" secondItem="yW2-rC-fG2" secondAttribute="trailing" constant="20" id="y4W-Ax-FkE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ofI-Rl-lyY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" multiplier="375/200" id="5bN-o6-GV6"/>
+                <constraint firstItem="ofI-Rl-lyY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" multiplier="812/379" id="Rr2-M2-qN0"/>
+                <constraint firstAttribute="trailing" secondItem="ofI-Rl-lyY" secondAttribute="trailing" id="SWo-su-q9Y"/>
+                <constraint firstAttribute="bottom" secondItem="ofI-Rl-lyY" secondAttribute="bottom" id="ldm-Wh-Y3h"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="createActivityBackgroundView" destination="ofI-Rl-lyY" id="c6j-Pe-xSx"/>
+                <outlet property="emojiImageView" destination="UM4-sH-TeW" id="sGc-1B-8Ij"/>
+                <outlet property="emojiViewBg" destination="SZd-jY-LJL" id="od6-jv-W1D"/>
+                <outlet property="scanQrButton" destination="2tt-3M-trl" id="G27-RX-Kq3"/>
+                <outlet property="titleLabel" destination="yW2-rC-fG2" id="7PE-cQ-JVo"/>
+            </connections>
+            <point key="canvasLocation" x="361.60000000000002" y="146.67487684729065"/>
+        </collectionViewCell>
+    </objects>
+</document>

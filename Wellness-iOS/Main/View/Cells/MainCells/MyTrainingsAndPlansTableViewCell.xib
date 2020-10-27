@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Medium.otf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+        <array key="SF-Pro-Display-Semibold.otf">
+            <string>SFProDisplay-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="85" id="KGk-i7-Jjw" customClass="MyTrainingsAndPlansTableViewCell" customModule="Wellness_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uaw-s3-rmm">
+                        <rect key="frame" x="16" y="0.0" width="343" height="71"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gw-cM-dpD">
+                                <rect key="frame" x="25" y="24.666666666666671" width="22" height="22"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="in total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNa-PR-CnW">
+                                <rect key="frame" x="57" y="30.666666666666671" width="35" height="15"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAP-0U-asi">
+                                <rect key="frame" x="218" y="0.0" width="100" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="yMo-Sr-0xd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="12"/>
+                                <state key="normal" title="look all">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="lookAllButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Uuh-oX-k3x"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96572738885879517" green="0.96304351091384888" blue="0.96583777666091919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2gw-cM-dpD" firstAttribute="centerY" secondItem="uaw-s3-rmm" secondAttribute="centerY" id="6ft-T7-cb3"/>
+                            <constraint firstItem="xAP-0U-asi" firstAttribute="top" secondItem="uaw-s3-rmm" secondAttribute="top" id="D7A-Q9-HNY"/>
+                            <constraint firstAttribute="trailing" secondItem="xAP-0U-asi" secondAttribute="trailing" constant="25" id="T8l-I1-oe2"/>
+                            <constraint firstItem="NNa-PR-CnW" firstAttribute="leading" secondItem="2gw-cM-dpD" secondAttribute="trailing" constant="10" id="Zws-1H-Yp5"/>
+                            <constraint firstItem="2gw-cM-dpD" firstAttribute="leading" secondItem="uaw-s3-rmm" secondAttribute="leading" constant="25" id="bKr-QJ-CS2"/>
+                            <constraint firstAttribute="height" constant="71" id="rnn-m5-PUe"/>
+                            <constraint firstAttribute="bottom" secondItem="xAP-0U-asi" secondAttribute="bottom" id="u6W-KR-gjz"/>
+                            <constraint firstItem="NNa-PR-CnW" firstAttribute="bottom" secondItem="2gw-cM-dpD" secondAttribute="bottom" constant="-1" id="vwt-vj-qe7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="uaw-s3-rmm" secondAttribute="trailing" constant="16" id="0j0-ZY-uHV"/>
+                    <constraint firstItem="uaw-s3-rmm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="1lL-ZV-ZBP"/>
+                    <constraint firstItem="uaw-s3-rmm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="aBS-YQ-omf"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="uaw-s3-rmm" secondAttribute="bottom" constant="20" id="up0-EW-Ngd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="countLabel" destination="2gw-cM-dpD" id="V62-NR-9ci"/>
+                <outlet property="lookAllButton" destination="xAP-0U-asi" id="d2g-GP-xl2"/>
+                <outlet property="myTrainingsAndPlansStatusLabel" destination="NNa-PR-CnW" id="kLv-pA-3hk"/>
+                <outlet property="myTrainingsAndPlansView" destination="uaw-s3-rmm" id="C5E-Gk-nxj"/>
+            </connections>
+            <point key="canvasLocation" x="136.80000000000001" y="150.36945812807883"/>
+        </tableViewCell>
+    </objects>
+</document>

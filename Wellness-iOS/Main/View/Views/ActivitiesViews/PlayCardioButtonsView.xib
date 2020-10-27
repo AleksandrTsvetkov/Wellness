@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PlayCardioButtonsView" customModule="Wellness_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="112"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qG8-WS-Ld4">
+                    <rect key="frame" x="117.5" y="23.5" width="75" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="qG8-WS-Ld4" secondAttribute="height" multiplier="1:1" id="uXS-k0-Ubp"/>
+                    </constraints>
+                    <state key="normal" image="pause"/>
+                    <state key="selected" image="play"/>
+                    <connections>
+                        <action selector="playPauseButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Auw-kd-z2y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTL-xs-fMw">
+                    <rect key="frame" x="52.5" y="38.5" width="45" height="45"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.44705882349999998" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="BTL-xs-fMw" secondAttribute="height" multiplier="1:1" id="o4e-6L-lFv"/>
+                    </constraints>
+                    <state key="normal" image="geolocation"/>
+                    <connections>
+                        <action selector="geoButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="kKk-lL-Lyx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Quf-fm-FhL">
+                    <rect key="frame" x="212.5" y="34.5" width="53" height="53"/>
+                    <state key="normal" image="stop"/>
+                    <connections>
+                        <action selector="stopButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="PAy-A2-Ss9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qG8-WS-Ld4" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="4gF-Nl-TAN"/>
+                <constraint firstItem="BTL-xs-fMw" firstAttribute="centerY" secondItem="qG8-WS-Ld4" secondAttribute="centerY" id="9Qb-jj-xbH"/>
+                <constraint firstItem="BTL-xs-fMw" firstAttribute="height" secondItem="qG8-WS-Ld4" secondAttribute="height" multiplier="0.6" id="AHi-k5-6Eb"/>
+                <constraint firstItem="Quf-fm-FhL" firstAttribute="leading" secondItem="qG8-WS-Ld4" secondAttribute="trailing" constant="20" id="GGx-F6-TOw"/>
+                <constraint firstItem="qG8-WS-Ld4" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="bqM-ik-ruD"/>
+                <constraint firstItem="BTL-xs-fMw" firstAttribute="trailing" secondItem="qG8-WS-Ld4" secondAttribute="leading" constant="-20" id="wXp-dI-RxK"/>
+                <constraint firstItem="Quf-fm-FhL" firstAttribute="centerY" secondItem="qG8-WS-Ld4" secondAttribute="centerY" id="zCy-kX-fG8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="geoButton" destination="BTL-xs-fMw" id="6dX-Hk-naU"/>
+                <outlet property="playPauseButton" destination="qG8-WS-Ld4" id="EQv-lh-W35"/>
+                <outlet property="stopButton" destination="Quf-fm-FhL" id="id5-sp-Fop"/>
+            </connections>
+            <point key="canvasLocation" x="-119" y="-70"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="geolocation" width="15" height="21"/>
+        <image name="pause" width="75" height="75"/>
+        <image name="play" width="75" height="75"/>
+        <image name="stop" width="53" height="53"/>
+    </resources>
+</document>

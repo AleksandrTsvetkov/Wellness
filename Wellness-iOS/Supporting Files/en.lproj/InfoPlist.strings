@@ -1,0 +1,19 @@
+/* 
+  InfoPlist.strings
+  Wellness-iOS
+
+  Created by Andrey Atroshchenko on 08.08.2020.
+  Copyright © 2020 Wellness. All rights reserved.
+*/
+"NSCalendarsUsageDescription" = "Wellness would like to access your calendar";
+"NSCameraUsageDescription" = "Wellness would like to access your camera";
+"NSHealthClinicalHealthRecordsShareUsageDescription" = "Wellness would like to access your Apple Health Information";
+"NSHealthShareUsageDescription" = "Wellness would like to access your Apple Health Information";
+"NSHealthUpdateUsageDescription" = "Wellness would like to update your Apple Health Information";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Wellness would like to access your location";
+"NSLocationAlwaysUsageDescription" = "Wellness would like to access your location";
+"NSLocationUsageDescription" = "Wellness would like to access your location";
+"NSLocationWhenInUseUsageDescription" = "App requsts access to GPS to track your Activity";
+"NSMicrophoneUsageDescription" = "Wellness would like to access your microphone";
+"NSMotionUsageDescription" = "Wellness would like to access your location needs access to motion data to display steps";
+"NSPhotoLibraryUsageDescription" = "Wellness would like to access your photo";

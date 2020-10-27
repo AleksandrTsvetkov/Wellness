@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+        <array key="SF-Pro-Display-Semibold.otf">
+            <string>SFProDisplay-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppSwitchView" customModule="Wellness_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="EcB-NQ-CzY" id="cnq-hJ-pRM"/>
+                <outlet property="descriptionLabel" destination="2NF-g9-GE9" id="y4Y-GP-Cz8"/>
+                <outlet property="titleLabel" destination="Otq-gN-3BD" id="alu-9c-C7t"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="AppSwitchView" id="EcB-NQ-CzY">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7g4-jA-O0d">
+                    <rect key="frame" x="0.0" y="0.0" width="343" height="90"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only student" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Otq-gN-3BD">
+                            <rect key="frame" x="0.0" y="0.0" width="90.666666666666671" height="19"/>
+                            <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toggle this if you are not going to be present on the training" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2NF-g9-GE9">
+                            <rect key="frame" x="0.0" y="29.999999999999996" width="220" height="33.666666666666657"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="16" id="Fs8-WG-Po0"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Krl-9e-mFK">
+                            <rect key="frame" x="291" y="19.666666666666671" width="51" height="31"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="onTintColor" red="0.99950212240000003" green="0.40552055840000001" blue="0.38274505730000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="thumbTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="createBasePlanSwitchAction:" destination="-1" eventType="valueChanged" id="9jA-Zq-Rp7"/>
+                            </connections>
+                        </switch>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Krl-9e-mFK" firstAttribute="centerY" secondItem="7g4-jA-O0d" secondAttribute="centerY" constant="-9.8333333333333286" id="Bbg-Ty-gX9"/>
+                        <constraint firstItem="2NF-g9-GE9" firstAttribute="leading" secondItem="7g4-jA-O0d" secondAttribute="leading" id="HHR-MA-Ql3"/>
+                        <constraint firstItem="2NF-g9-GE9" firstAttribute="top" secondItem="Otq-gN-3BD" secondAttribute="bottom" constant="11" id="MNV-wS-Hff"/>
+                        <constraint firstItem="Otq-gN-3BD" firstAttribute="top" secondItem="7g4-jA-O0d" secondAttribute="top" id="hIn-gh-qm3"/>
+                        <constraint firstAttribute="trailing" secondItem="Krl-9e-mFK" secondAttribute="trailing" constant="3" id="m4u-gL-hYU"/>
+                        <constraint firstAttribute="height" constant="90" id="me8-Fi-z1I"/>
+                        <constraint firstItem="2NF-g9-GE9" firstAttribute="width" secondItem="7g4-jA-O0d" secondAttribute="width" multiplier="220/343" id="rif-m6-xA8"/>
+                        <constraint firstItem="Otq-gN-3BD" firstAttribute="leading" secondItem="7g4-jA-O0d" secondAttribute="leading" id="vwP-JV-soO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="7g4-jA-O0d" firstAttribute="top" secondItem="EcB-NQ-CzY" secondAttribute="top" id="fTW-fG-9a0"/>
+                <constraint firstAttribute="trailing" secondItem="7g4-jA-O0d" secondAttribute="trailing" id="we0-0V-kwc"/>
+                <constraint firstItem="7g4-jA-O0d" firstAttribute="leading" secondItem="v8j-F5-ytV" secondAttribute="leading" id="xQq-BE-4WK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="v8j-F5-ytV"/>
+            <point key="canvasLocation" x="316" y="-123.39901477832512"/>
+        </view>
+    </objects>
+</document>

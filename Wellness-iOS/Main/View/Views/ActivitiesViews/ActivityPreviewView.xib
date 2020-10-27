@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ActivityPreviewView" id="iKb-V6-Goo" customClass="ActivityPreviewView" customModule="Wellness_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="562"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Alx-27-fbR">
+                    <rect key="frame" x="0.0" y="0.0" width="343" height="562"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_default-1" translatesAutoresizingMaskIntoConstraints="NO" id="od5-Iv-Xjo">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="166"/>
+                            <color key="backgroundColor" red="0.95549887420000001" green="0.95622259379999996" blue="0.95561093090000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fdi-ap-LrJ">
+                            <rect key="frame" x="0.0" y="166" width="343" height="396"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6La-Lm-2mc" customClass="CustomCommonButton" customModule="Wellness_iOS" customModuleProvider="target">
+                                    <rect key="frame" x="20" y="332" width="303" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="6La-Lm-2mc" secondAttribute="height" multiplier="303:44" id="XR9-h3-XFX"/>
+                                    </constraints>
+                                    <connections>
+                                        <action selector="addForToday:" destination="iKb-V6-Goo" eventType="touchUpInside" id="nD9-uY-52b"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Maw-vP-gST">
+                                    <rect key="frame" x="20" y="268" width="303" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="Maw-vP-gST" secondAttribute="height" multiplier="303/44" id="eez-C8-akf"/>
+                                    </constraints>
+                                    <state key="normal" title="Add set"/>
+                                    <connections>
+                                        <action selector="addSetButtonAction:" destination="iKb-V6-Goo" eventType="touchUpInside" id="Kxp-3D-amR"/>
+                                    </connections>
+                                </button>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gT5-Vc-aNU">
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="268"/>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="6La-Lm-2mc" secondAttribute="bottom" constant="20" id="38E-7o-26L"/>
+                                <constraint firstItem="Maw-vP-gST" firstAttribute="leading" secondItem="fdi-ap-LrJ" secondAttribute="leading" constant="20" id="8jK-Gb-H1W"/>
+                                <constraint firstItem="6La-Lm-2mc" firstAttribute="top" secondItem="Maw-vP-gST" secondAttribute="bottom" constant="20" id="BIk-2f-2re"/>
+                                <constraint firstItem="gT5-Vc-aNU" firstAttribute="leading" secondItem="fdi-ap-LrJ" secondAttribute="leading" id="BJ8-lS-d4S"/>
+                                <constraint firstItem="6La-Lm-2mc" firstAttribute="centerX" secondItem="fdi-ap-LrJ" secondAttribute="centerX" id="EAs-lV-kDS"/>
+                                <constraint firstItem="6La-Lm-2mc" firstAttribute="leading" secondItem="fdi-ap-LrJ" secondAttribute="leading" constant="20" id="JRH-cD-b0Z"/>
+                                <constraint firstItem="Maw-vP-gST" firstAttribute="top" secondItem="gT5-Vc-aNU" secondAttribute="bottom" id="MMu-tu-oAO"/>
+                                <constraint firstItem="Maw-vP-gST" firstAttribute="centerX" secondItem="fdi-ap-LrJ" secondAttribute="centerX" id="aYp-YH-Gqi"/>
+                                <constraint firstItem="gT5-Vc-aNU" firstAttribute="top" secondItem="fdi-ap-LrJ" secondAttribute="top" id="fRM-Hi-BQV"/>
+                                <constraint firstAttribute="trailing" secondItem="Maw-vP-gST" secondAttribute="trailing" constant="20" id="iHI-4E-kiW"/>
+                                <constraint firstAttribute="trailing" secondItem="6La-Lm-2mc" secondAttribute="trailing" constant="20" id="oe1-ad-1uo"/>
+                                <constraint firstAttribute="trailing" secondItem="gT5-Vc-aNU" secondAttribute="trailing" id="yfO-jR-BzK"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="od5-Iv-Xjo" firstAttribute="height" secondItem="Alx-27-fbR" secondAttribute="height" multiplier="166/562" id="EIH-Gh-LQY"/>
+                    </constraints>
+                </stackView>
+                <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLb-9A-N9M">
+                    <rect key="frame" x="268" y="25" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="65B-EG-wi0"/>
+                        <constraint firstAttribute="width" constant="50" id="tQ4-Ct-Uap"/>
+                    </constraints>
+                    <state key="normal" image="button_dismiss"/>
+                    <connections>
+                        <action selector="dismissButtonAction:" destination="iKb-V6-Goo" eventType="touchUpInside" id="qwY-Sg-lcy"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Alx-27-fbR" secondAttribute="trailing" id="89r-cj-1G1"/>
+                <constraint firstItem="Alx-27-fbR" firstAttribute="top" secondItem="iKb-V6-Goo" secondAttribute="top" id="JSh-mg-DGu"/>
+                <constraint firstAttribute="bottom" secondItem="Alx-27-fbR" secondAttribute="bottom" id="S0d-U8-KPM"/>
+                <constraint firstItem="Alx-27-fbR" firstAttribute="leading" secondItem="dgQ-Ad-2xc" secondAttribute="leading" id="YBX-7k-gkp"/>
+                <constraint firstItem="hLb-9A-N9M" firstAttribute="top" secondItem="iKb-V6-Goo" secondAttribute="top" constant="25" id="fHx-eO-ObL"/>
+                <constraint firstItem="dgQ-Ad-2xc" firstAttribute="trailing" secondItem="hLb-9A-N9M" secondAttribute="trailing" constant="25" id="rCA-9c-c81"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="dgQ-Ad-2xc"/>
+            <connections>
+                <outlet property="addForTodayButton" destination="6La-Lm-2mc" id="Swq-NZ-8iY"/>
+                <outlet property="addSetButton" destination="Maw-vP-gST" id="BbE-sR-OQN"/>
+                <outlet property="exerciseImageView" destination="od5-Iv-Xjo" id="R51-6F-682"/>
+                <outlet property="tableView" destination="gT5-Vc-aNU" id="Qeb-h4-CR4"/>
+                <outlet property="tableViewBGView" destination="fdi-ap-LrJ" id="FJw-r1-Ak0"/>
+            </connections>
+            <point key="canvasLocation" x="749.60000000000002" y="40.64039408866995"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button_dismiss" width="30" height="30"/>
+        <image name="image_default-1" width="343" height="166"/>
+    </resources>
+</document>

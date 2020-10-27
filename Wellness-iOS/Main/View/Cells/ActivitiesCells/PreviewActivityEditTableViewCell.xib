@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Medium.otf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+        <array key="SF-Pro-Display-Semibold.otf">
+            <string>SFProDisplay-Semibold</string>
+        </array>
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PreviewActivityEditTableViewCell" rowHeight="991" id="KGk-i7-Jjw" customClass="PreviewActivityEditTableViewCell" customModule="Wellness_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="991"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="359" height="991"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="LAh-yt-6Ld">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="991"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIQ-Mw-18x">
+                                <rect key="frame" x="0.0" y="0.0" width="359" height="166"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k5T-HX-oA8">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="166"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="166" id="Dkg-sB-gSG"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iTN-KB-3sd">
+                                        <rect key="frame" x="16" y="126" width="101" height="32"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="16"/>
+                                        <state key="normal" title="Change Media"/>
+                                        <connections>
+                                            <action selector="instructionsButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="nL8-hI-1by"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="k5T-HX-oA8" secondAttribute="trailing" id="5fW-tn-MY4"/>
+                                    <constraint firstItem="k5T-HX-oA8" firstAttribute="top" secondItem="mIQ-Mw-18x" secondAttribute="top" id="Bh0-do-qDp"/>
+                                    <constraint firstAttribute="bottom" secondItem="k5T-HX-oA8" secondAttribute="bottom" id="Hv2-D2-suM"/>
+                                    <constraint firstAttribute="bottom" secondItem="iTN-KB-3sd" secondAttribute="bottom" constant="8" id="m7K-N3-0wC"/>
+                                    <constraint firstItem="k5T-HX-oA8" firstAttribute="leading" secondItem="mIQ-Mw-18x" secondAttribute="leading" id="nTT-hj-en9"/>
+                                    <constraint firstItem="iTN-KB-3sd" firstAttribute="leading" secondItem="mIQ-Mw-18x" secondAttribute="leading" constant="16" id="qhk-sa-4qS"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cH6-cE-e5k">
+                                <rect key="frame" x="0.0" y="166" width="359" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89Z-es-Q19">
+                                        <rect key="frame" x="16" y="66" width="311" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="VIL-Kz-cYr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="16"/>
+                                        <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Add photo/video instruction" image="icon_add_image">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="instructionsButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="bKC-cj-3CX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="89Z-es-Q19" secondAttribute="trailing" constant="32" id="0ad-kD-TP4"/>
+                                    <constraint firstItem="89Z-es-Q19" firstAttribute="leading" secondItem="cH6-cE-e5k" secondAttribute="leading" constant="16" id="KMK-ab-pKr"/>
+                                    <constraint firstAttribute="height" constant="120" id="dJK-Yq-pon"/>
+                                    <constraint firstAttribute="bottom" secondItem="89Z-es-Q19" secondAttribute="bottom" constant="16" id="hxn-XD-bPi"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IbK-pF-SBy">
+                                <rect key="frame" x="0.0" y="286" width="359" height="83"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wE0-Bq-3Ey" customClass="FloatLabelTextField" customModule="Wellness_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="10" width="327" height="68"/>
+                                        <color key="backgroundColor" red="0.45490196078431372" green="0.45490196078431372" blue="0.50196078431372548" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="X9N-JG-LLP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="topSpacingFromPlaceholder">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="hintYPadding">
+                                                <real key="value" value="-2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleYPadding">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="titleTextColour">
+                                                <color key="value" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="titleActiveTextColour">
+                                                <color key="value" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="wE0-Bq-3Ey" secondAttribute="bottom" constant="5" id="Wx5-8f-pod"/>
+                                    <constraint firstItem="wE0-Bq-3Ey" firstAttribute="top" secondItem="IbK-pF-SBy" secondAttribute="top" constant="10" id="ezf-KP-4ZF"/>
+                                    <constraint firstAttribute="trailing" secondItem="wE0-Bq-3Ey" secondAttribute="trailing" constant="16" id="keL-r2-zQA"/>
+                                    <constraint firstItem="wE0-Bq-3Ey" firstAttribute="leading" secondItem="IbK-pF-SBy" secondAttribute="leading" constant="16" id="q3X-Yj-iZD"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gtz-iJ-jVS">
+                                <rect key="frame" x="0.0" y="369" width="359" height="385.5"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fe9-oB-fUA" customClass="FloatLabelTextView" customModule="Wellness_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="5" width="327" height="375.5"/>
+                                        <color key="backgroundColor" red="0.4549019608" green="0.4549019608" blue="0.50196078430000002" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="OfY-A9-Vrx"/>
+                                        </constraints>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="hint" value="Des"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="titleTextColour">
+                                                <color key="value" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="titleActiveTextColour">
+                                                <color key="value" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleYPadding">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="hintYPadding">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="fe9-oB-fUA" firstAttribute="leading" secondItem="gtz-iJ-jVS" secondAttribute="leading" constant="16" id="HQk-L6-NZq"/>
+                                    <constraint firstAttribute="bottom" secondItem="fe9-oB-fUA" secondAttribute="bottom" constant="5" id="TU0-g9-EF6"/>
+                                    <constraint firstAttribute="trailing" secondItem="fe9-oB-fUA" secondAttribute="trailing" constant="16" id="XhK-8k-wSk"/>
+                                    <constraint firstItem="fe9-oB-fUA" firstAttribute="top" secondItem="gtz-iJ-jVS" secondAttribute="top" constant="5" id="beD-g4-Jvw"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5vb-jR-rX4">
+                                <rect key="frame" x="0.0" y="754.5" width="359" height="61"/>
+                                <subviews>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gND-3Q-tl9">
+                                        <rect key="frame" x="16" y="5" width="327" height="51"/>
+                                        <color key="backgroundColor" red="0.4549019608" green="0.4549019608" blue="0.50196078430000002" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="51" id="LQ0-LM-AUK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button_expand" translatesAutoresizingMaskIntoConstraints="NO" id="QxP-2S-URd">
+                                        <rect key="frame" x="309" y="21.5" width="18" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="9QG-rc-JfH"/>
+                                            <constraint firstAttribute="width" constant="18" id="Kcd-jy-v9B"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="gND-3Q-tl9" firstAttribute="leading" secondItem="5vb-jR-rX4" secondAttribute="leading" constant="16" id="Lh6-RF-YLx"/>
+                                    <constraint firstAttribute="trailing" secondItem="QxP-2S-URd" secondAttribute="trailing" constant="32" id="TSQ-LH-fKU"/>
+                                    <constraint firstAttribute="bottom" secondItem="gND-3Q-tl9" secondAttribute="bottom" constant="5" id="Wi0-iw-Y2p"/>
+                                    <constraint firstItem="gND-3Q-tl9" firstAttribute="top" secondItem="5vb-jR-rX4" secondAttribute="top" constant="5" id="bSv-TQ-ovJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="gND-3Q-tl9" secondAttribute="trailing" constant="16" id="mqc-G2-kH7"/>
+                                    <constraint firstItem="QxP-2S-URd" firstAttribute="centerY" secondItem="5vb-jR-rX4" secondAttribute="centerY" id="ym9-KZ-I3M"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7pM-ry-moW">
+                                <rect key="frame" x="0.0" y="815.5" width="359" height="61"/>
+                                <subviews>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bwn-Hf-2jC">
+                                        <rect key="frame" x="16" y="5" width="327" height="51"/>
+                                        <color key="backgroundColor" red="0.4549019608" green="0.4549019608" blue="0.50196078430000002" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="51" id="sfR-Fl-jLd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button_expand" translatesAutoresizingMaskIntoConstraints="NO" id="6sX-4S-Vnz">
+                                        <rect key="frame" x="309" y="19.5" width="18" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="18" id="qyp-CG-0CT"/>
+                                            <constraint firstAttribute="height" constant="22" id="sWu-1I-759"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="6sX-4S-Vnz" firstAttribute="centerY" secondItem="7pM-ry-moW" secondAttribute="centerY" id="S8W-I4-gnb"/>
+                                    <constraint firstAttribute="bottom" secondItem="bwn-Hf-2jC" secondAttribute="bottom" constant="5" id="XbI-uS-RUD"/>
+                                    <constraint firstItem="bwn-Hf-2jC" firstAttribute="leading" secondItem="7pM-ry-moW" secondAttribute="leading" constant="16" id="Yn3-G7-OtE"/>
+                                    <constraint firstAttribute="trailing" secondItem="6sX-4S-Vnz" secondAttribute="trailing" constant="32" id="brD-0D-cCd"/>
+                                    <constraint firstAttribute="trailing" secondItem="bwn-Hf-2jC" secondAttribute="trailing" constant="16" id="jPy-YK-hbp"/>
+                                    <constraint firstItem="bwn-Hf-2jC" firstAttribute="top" secondItem="7pM-ry-moW" secondAttribute="top" constant="5" id="rbM-Ng-stW"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JQn-YS-2te">
+                                <rect key="frame" x="0.0" y="876.5" width="359" height="83"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oom-Fh-wLJ" customClass="FloatLabelTextField" customModule="Wellness_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="5" width="327" height="68"/>
+                                        <color key="backgroundColor" red="0.4549019608" green="0.4549019608" blue="0.50196078430000002" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="SPN-ZW-CHr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="topSpacingFromPlaceholder">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="titleTextColour">
+                                                <color key="value" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="titleActiveTextColour">
+                                                <color key="value" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="hintYPadding">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleYPadding">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="oom-Fh-wLJ" secondAttribute="trailing" constant="16" id="6pB-ax-UXs"/>
+                                    <constraint firstAttribute="bottom" secondItem="oom-Fh-wLJ" secondAttribute="bottom" constant="10" id="UkH-1u-WfL"/>
+                                    <constraint firstItem="oom-Fh-wLJ" firstAttribute="top" secondItem="JQn-YS-2te" secondAttribute="top" constant="5" id="V6y-yL-uej"/>
+                                    <constraint firstItem="oom-Fh-wLJ" firstAttribute="leading" secondItem="JQn-YS-2te" secondAttribute="leading" constant="16" id="nA0-vY-ggJ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XEU-tr-nKl">
+                                <rect key="frame" x="0.0" y="959.5" width="359" height="31.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="fe9-oB-fUA" firstAttribute="width" secondItem="wE0-Bq-3Ey" secondAttribute="width" id="xWf-il-mhr"/>
+                        </constraints>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button_dismiss" translatesAutoresizingMaskIntoConstraints="NO" id="cHH-uK-cba">
+                        <rect key="frame" x="313" y="16" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="GxH-jp-BRZ"/>
+                            <constraint firstAttribute="height" constant="30" id="W0j-iZ-u0i"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="cHH-uK-cba" secondAttribute="trailing" constant="16" id="1Dv-G5-PpJ"/>
+                    <constraint firstAttribute="bottom" secondItem="LAh-yt-6Ld" secondAttribute="bottom" id="1Jd-AI-fmd"/>
+                    <constraint firstItem="LAh-yt-6Ld" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="3rO-Hc-Zb0"/>
+                    <constraint firstItem="LAh-yt-6Ld" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="GsB-68-xdS"/>
+                    <constraint firstItem="cHH-uK-cba" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="p57-fC-d64"/>
+                    <constraint firstAttribute="trailing" secondItem="LAh-yt-6Ld" secondAttribute="trailing" id="tDC-Yx-0dc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addMediaButton" destination="89Z-es-Q19" id="aEr-f4-jIL"/>
+                <outlet property="addMediaView" destination="cH6-cE-e5k" id="VJR-4r-6JA"/>
+                <outlet property="caloriesTextF" destination="oom-Fh-wLJ" id="wzO-1n-BoO"/>
+                <outlet property="changeMediaButton" destination="iTN-KB-3sd" id="fDO-Bs-Kda"/>
+                <outlet property="descriptionHConst" destination="OfY-A9-Vrx" id="Eze-Hc-o4H"/>
+                <outlet property="descriptionTextView" destination="fe9-oB-fUA" id="b5W-6A-96f"/>
+                <outlet property="equipmentTextF" destination="bwn-Hf-2jC" id="HmZ-CE-0d5"/>
+                <outlet property="imageViewBgView" destination="mIQ-Mw-18x" id="FEx-zO-Wsz"/>
+                <outlet property="mainStackView" destination="LAh-yt-6Ld" id="wmO-Mc-URp"/>
+                <outlet property="mediaImageView" destination="k5T-HX-oA8" id="88g-5D-308"/>
+                <outlet property="nameTextF" destination="wE0-Bq-3Ey" id="5YM-NU-maZ"/>
+                <outlet property="tagsTextF" destination="gND-3Q-tl9" id="OvF-oN-n7A"/>
+            </connections>
+            <point key="canvasLocation" x="47.10144927536232" y="340.51339285714283"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="button_dismiss" width="30" height="30"/>
+        <image name="button_expand" width="16" height="16"/>
+        <image name="icon_add_image" width="38" height="38"/>
+    </resources>
+</document>

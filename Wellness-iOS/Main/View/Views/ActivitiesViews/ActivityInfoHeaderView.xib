@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ActivityInfoHeaderView" customModule="Wellness_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="327"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iTU-1a-UiZ" customClass="ActivityInfoView" customModule="Wellness_iOS" customModuleProvider="target">
+                    <rect key="frame" x="16" y="20" width="343" height="98"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="98" id="zdz-GO-GLE"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="41v-F4-pbw">
+                    <rect key="frame" x="16" y="118" width="343" height="0.0"/>
+                    <subviews>
+                        <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxI-XH-YAr">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="98"/>
+                            <subviews>
+                                <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GOV-9f-sO5" customClass="AddActivityButtonView" customModule="Wellness_iOS" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="50" width="343" height="38"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="38" id="YQw-hG-kLp"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="98" id="7J5-wX-dNC"/>
+                                <constraint firstItem="GOV-9f-sO5" firstAttribute="top" secondItem="gxI-XH-YAr" secondAttribute="top" constant="50" id="UYT-V7-4Ib"/>
+                                <constraint firstItem="GOV-9f-sO5" firstAttribute="leading" secondItem="gxI-XH-YAr" secondAttribute="leading" id="jdp-dF-Q6R"/>
+                                <constraint firstAttribute="trailing" secondItem="GOV-9f-sO5" secondAttribute="trailing" id="leA-vq-tNb"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="iTU-1a-UiZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="2yN-p6-RBK"/>
+                <constraint firstItem="41v-F4-pbw" firstAttribute="top" secondItem="iTU-1a-UiZ" secondAttribute="bottom" id="3lC-l2-fHp"/>
+                <constraint firstItem="41v-F4-pbw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="4id-My-jmN"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="41v-F4-pbw" secondAttribute="bottom" constant="40" id="U12-J8-KWJ"/>
+                <constraint firstItem="iTU-1a-UiZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="fp3-Se-apT"/>
+                <constraint firstAttribute="trailing" secondItem="iTU-1a-UiZ" secondAttribute="trailing" constant="16" id="hNY-y1-qaj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="41v-F4-pbw" secondAttribute="trailing" constant="16" id="keU-iy-0gG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="activityButtonView" destination="gxI-XH-YAr" id="SkS-KQ-qL1"/>
+                <outlet property="activityInfoView" destination="iTU-1a-UiZ" id="uw6-iS-ALC"/>
+                <outlet property="addActivityButtonView" destination="GOV-9f-sO5" id="Ssc-fr-2eV"/>
+            </connections>
+            <point key="canvasLocation" x="125.59999999999999" y="-399.38423645320199"/>
+        </view>
+    </objects>
+</document>
